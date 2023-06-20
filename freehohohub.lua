@@ -146,7 +146,7 @@ local listPre = {
 	[4098816381]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/AnimeSoulSimulatorPre.lua', true))()",
 }
 
-if okhohohubdabicrack and listPre[game.GameId] ~= nil then
+if getgenv().Key and hohodabicrack and listPre[game.GameId] ~= nil then
 	getgenv().messagebox = function()end
 	loadstring(listPre[tonumber(game.GameId)])()
 elseif not getgenv().Key and list[game.GameId] ~= nil then
